@@ -1,7 +1,5 @@
 import "./Technology.css";
 
-function Technology() {
+export default function Technology(props) {
   return <div id="technology"></div>;
 }
-
-export default Technology;

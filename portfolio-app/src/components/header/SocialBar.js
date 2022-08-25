@@ -1,7 +1,7 @@
 import "./SocialBar.css";
-import { socialImages } from "../images/index.js";
+import { socialImages } from "./images/index.js";
 
-function SocialBar() {
+export default function SocialBar(props) {
   return (
     <div id="social-bar">
       <a
@@ -32,5 +32,3 @@ function SocialBar() {
     </div>
   );
 }
-
-export default SocialBar;

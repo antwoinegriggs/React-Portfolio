@@ -1,8 +1,8 @@
 import "./Landing.css";
-import logo from "./face-logo.png";
-import photo from "./sde-photo.jpg";
+import logo from "./images/face-logo.png";
+import photo from "./images/sde-photo.jpg";
 
-function Landing() {
+function Landing(props) {
   return (
     <div id="landing">
       <h2 id="title">Software Engingeer</h2>

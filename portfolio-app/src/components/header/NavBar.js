@@ -1,6 +1,6 @@
 import "./NavBar.css";
 
-function NavBar() {
+export default function NavBar(props) {
   return (
     <div id="nav-bar">
       <button id="btn-contact">Contact Me</button>
@@ -8,5 +8,3 @@ function NavBar() {
     </div>
   );
 }
-
-export default NavBar;

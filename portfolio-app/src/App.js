@@ -1,24 +1,16 @@
-import Logo from "./components/logo.js";
-import SocialBar from "./components/SocialBar.js";
-import NavBar from "./components/NavBar.js";
-import Landing from "./components/Landing.js";
-import Technology from "./components/Technology.js";
+import Header from "./components/header/header.js";
+import Main from "./components/main/main.js";
 import "./App.css";
 
-function App() {
+function App(props) {
   return (
     <div className="App">
       <header className="App-header">
-        <SocialBar />
-        <Logo />
-        <NavBar />
+        <Header />
       </header>
-      <div>
-        <main className="App-main">
-          <Landing />
-          <Technology />
-        </main>
-      </div>
+      <main className="App-main">
+        <Main />
+      </main>
     </div>
   );
 }
