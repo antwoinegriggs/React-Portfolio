@@ -17,6 +17,11 @@
   font-weight: 700;
 }
 
+#btn-contact:hover {
+  background-color: #cc0000;
+  color: white;
+}
+
 #resume-link {
   color: #282626;
   font-weight: normal;

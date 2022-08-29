@@ -2,7 +2,7 @@ import "./Landing.css";
 import logo from "./images/face-logo.png";
 import photo from "./images/sde-photo.jpg";
 
-function Landing(props) {
+export default function Landing(props) {
   return (
     <div id="landing">
       <h2 id="title">Software Engingeer</h2>
@@ -12,5 +12,3 @@ function Landing(props) {
     </div>
   );
 }
-
-export default Landing;
