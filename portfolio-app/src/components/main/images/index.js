@@ -5,4 +5,10 @@ const techImages = {
   reactImage: require("./react-image.png"),
 };
 
-export { techImages };
+const projectImages = {
+  triviaImage: require("./trivia.jpg"),
+  heroImage: require("./heroes.jpg"),
+  diceImage: require("./dice.gif"),
+};
+
+export { techImages, projectImages };

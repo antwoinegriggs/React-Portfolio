@@ -1,4 +1,4 @@
-import "./NavBar.css";
+import "./index.css";
 
 export default function NavBar(props) {
   return (

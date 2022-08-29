@@ -1,4 +1,4 @@
-import "./Landing.css";
+import "./index.css";
 import logo from "./images/face-logo.png";
 import photo from "./images/sde-photo.jpg";
 

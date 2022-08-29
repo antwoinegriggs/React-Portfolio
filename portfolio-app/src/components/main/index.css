@@ -1,0 +1,209 @@
+/* Landing */
+#landing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#title {
+  font-size: 50px;
+  font-family: raleway, sans-serif;
+  font-weight: bold;
+  margin-top: 75px;
+  text-align: center;
+}
+
+#sub-title {
+  font-size: 19px;
+  font-weight: bold;
+  letter-spacing: normal;
+  font-family: raleway, sans-serif;
+  line-height: 1.8em;
+  text-align: center;
+}
+
+#face-logo {
+  margin-top: 50px;
+  height: 375px;
+  width: 375px;
+  transition: transform 0.2s; /* Animation */
+}
+
+#face-logo:hover {
+  transform: scale(1.5);
+}
+
+#sde-photo {
+  width: 900px;
+  height: 600px;
+  margin-top: 75px;
+  margin-bottom: -0.01rem;
+}
+
+/* Projects */
+#project-section {
+  background-color: white;
+  width: 100%;
+  height: 435px;
+}
+#project-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 100%;
+  width: 100%;
+}
+
+#project-container img {
+  height: 300px;
+  width: 300px;
+  border-radius: 1rem;
+}
+
+#project-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#project-wrapper img {
+  background-color: black;
+  margin-top: -316.5px;
+}
+
+#project-wrapper:hover img {
+  visibility: hidden;
+}
+
+#project-title {
+  color: #cc0000;
+  margin: 70px;
+  font-size: 50px;
+}
+/* Trivia Game */
+#trivia-title {
+  font-size: 30px;
+  color: white;
+  margin-top: -300px;
+  margin-left: -100px;
+}
+
+#project-wrapper:hover #trivia-title {
+  visibility: hidden;
+}
+
+/* Heroes Catalog */
+#heroes-title {
+  font-size: 20px;
+  background-color: #cc0000;
+  color: white;
+  margin-top: -175px;
+}
+
+#project-wrapper:hover #heroes-title {
+  visibility: hidden;
+}
+
+/* Dice Roller */
+#dice-title {
+  font-size: 30px;
+  color: white;
+  margin-top: -300px;
+}
+
+#project-wrapper:hover #dice-title {
+  visibility: hidden;
+}
+
+#project-wrapper #dice-game {
+  background-color: #cc0000;
+}
+
+#text {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  background-color: black;
+  height: 300px;
+  width: 300px;
+  line-height: 1.5;
+  border-radius: 1rem;
+  text-align: left;
+  padding: 1.5rem;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#btn-projects {
+  height: 50px;
+  width: 150px;
+  background-color: white;
+  border: solid #cc0000 0.15rem;
+  border-radius: 1.5rem;
+  font-size: 16px;
+  color: #cc0000;
+  font-family: raleway, sans-serif;
+  font-weight: 700;
+}
+
+#btn-projects:hover {
+  background-color: #cc0000;
+  color: white;
+}
+
+#btn-github {
+  height: 50px;
+  width: 245px;
+  background-color: transparent;
+  border: solid #cc0000 0.15rem;
+  border-radius: 1.5rem;
+  font-size: 16px;
+  color: #cc0000;
+  font-family: raleway, sans-serif;
+  font-weight: 700;
+}
+
+#btn-github:hover {
+  background-color: #cc0000;
+  color: white;
+}
+
+/* Technology */
+#technology {
+  background-color: #cc0000;
+  width: 100%;
+  height: 435px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+#tech-title {
+  color: white;
+  font-size: 40px;
+  margin: 50px;
+}
+
+#tech-images-container {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#tech-images-container img {
+  margin: auto;
+  height: 125px;
+  width: 125px;
+  max-height: 100%;
+  max-width: 100%;
+  transition: transform 0.2s; /* Animation */
+}
+
+#tech-images-container img:hover {
+  transform: scale(1.5);
+}

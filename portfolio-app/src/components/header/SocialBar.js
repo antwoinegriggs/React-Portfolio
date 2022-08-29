@@ -1,4 +1,4 @@
-import "./SocialBar.css";
+import "./index.css";
 import { socialImages } from "./images/index.js";
 
 export default function SocialBar(props) {

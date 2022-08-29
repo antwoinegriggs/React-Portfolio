@@ -1,8 +1,11 @@
+/* Nav Bar */
 #nav-bar {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin: 75px;
+  margin: 70px;
+  height: 100%;
+  width: auto;
 }
 
 #btn-contact {
@@ -28,4 +31,27 @@
   font-size: 20px;
   font-family: raleway, sans-serif;
   margin: 35px;
+}
+
+#resume-link:hover {
+  color: orange;
+  text-decoration: underline;
+}
+
+/* Social Bar */
+#social-bar {
+  margin: 75px;
+}
+img {
+  height: 45px;
+  width: 45px;
+  margin: 0.75rem;
+}
+
+#social-bar img {
+  transition: transform 0.2s; /* Animation */
+}
+
+#social-bar img:hover {
+  transform: scale(1.5);
 }
