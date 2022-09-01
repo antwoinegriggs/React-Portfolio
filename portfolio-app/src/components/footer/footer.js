@@ -1,13 +1,13 @@
 import SocialBar from "../header/SocialBar.js";
 import "./index.css";
-import AltLogo from "./alt-logo.js";
+import altLogo from "./alt-logo.png";
 
 export default function Footer() {
   return (
     <div id="footer">
-      <img src={AltLogo} alt="" />
+      <img id="alt-logo" src={altLogo} alt="" />
       <SocialBar />
-      <p>
+      <p id="copyright">
         ©2022 by AG Software Engineer. Proudly create with JavaScript, React,
         HTML, CSS.
       </p>
