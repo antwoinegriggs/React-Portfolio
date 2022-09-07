@@ -1,21 +1,17 @@
-import Header from "./components/header/header.js";
-import Main from "./components/main/main.js";
-import Footer from "./components/footer/footer.js";
+import React from "react";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Home from "./components/routes/home.js";
+import Contact from "./components/routes/contact.js";
 
-import "./App.css";
-
-function App(props) {
+function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <Header />
-      </header>
-      <main className="App-main">
-        <Main />
-      </main>
-      <footer>
-        <Footer />
-      </footer>
+      <Router>
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route path="/contact" component={Contact} />
+        </Switch>
+      </Router>
     </div>
   );
 }

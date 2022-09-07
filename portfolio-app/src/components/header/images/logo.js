@@ -5,7 +5,7 @@ function Logo() {
     <svg
       id="logo"
       xmlns="http://www.w3.org/2000/svg"
-      xmlnsSvgjs="http://svgjs.dev/svgjs"
+      xmlnssvgjs="http://svgjs.dev/svgjs"
       xmlnsXlink="http://www.w3.org/1999/xlink"
       width="140"
       height="90"
@@ -13,7 +13,7 @@ function Logo() {
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        xmlnsSvgjs="http://svgjs.com/svgjs"
+        xmlnssvgjs="http://svgjs.com/svgjs"
         xmlnsXlink="http://www.w3.org/1999/xlink"
         width="1000"
         height="623"
@@ -29,7 +29,7 @@ function Logo() {
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            xmlnsSvgjs="http://svgjs.com/svgjs"
+            xmlnssvgjs="http://svgjs.com/svgjs"
             xmlnsXlink="http://www.w3.org/1999/xlink"
           ></svg>
           <svg width="395.52" height="247.2" viewBox="0 0 395.52 247.2">

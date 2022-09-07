@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import NavBar from "./NavBar";
 import SocialBar from "./SocialBar";
 import Logo from "./images/logo";
@@ -7,7 +8,9 @@ export default function Header() {
   return (
     <React.Fragment>
       <SocialBar />
-      <Logo />
+      <NavLink to="/">
+        <Logo />
+      </NavLink>
       <NavBar />
     </React.Fragment>
   );
