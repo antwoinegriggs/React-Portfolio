@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.a11c1c5f.css",
+    "main.js": "/React-Portfolio/static/js/main.18479243.js",
+    "static/media/heroes.jpg": "/React-Portfolio/static/media/heroes.87388b0c7004ec797c90.jpg",
+    "static/media/dice.gif": "/React-Portfolio/static/media/dice.579471410a5ffaeb8c42.gif",
+    "static/media/face-logo.png": "/React-Portfolio/static/media/face-logo.420ef787b5a4df8796d6.png",
+    "static/media/trivia.jpg": "/React-Portfolio/static/media/trivia.a8433fd8af05991ef655.jpg",
+    "static/media/sde-photo.jpg": "/React-Portfolio/static/media/sde-photo.aec739b9e8095a6f6fb8.jpg",
+    "static/media/react-image.png": "/React-Portfolio/static/media/react-image.35639ed930462bfcd544.png",
+    "static/media/raleway-black-webfont.woff": "/React-Portfolio/static/media/raleway-black-webfont.02634d1413b26018bf25.woff",
+    "static/media/raleway-black-webfont.woff2": "/React-Portfolio/static/media/raleway-black-webfont.cfc875cbbc39c4d52aff.woff2",
+    "static/media/alt-logo.png": "/React-Portfolio/static/media/alt-logo.b7e832800db12f45ca78.png",
+    "static/media/html-5.png": "/React-Portfolio/static/media/html-5.cfb2ba4a6b1c3de295bc.png",
+    "static/media/css-3.png": "/React-Portfolio/static/media/css-3.4a6549b8c2b4cda8bb88.png",
+    "static/media/js.png": "/React-Portfolio/static/media/js.3dfb665e058d08c99f28.png",
+    "static/media/discord-logo.webp": "/React-Portfolio/static/media/discord-logo.ac124a93d5bdf8169b76.webp",
+    "static/media/twitter-logo.webp": "/React-Portfolio/static/media/twitter-logo.c36168b5c296f6707077.webp",
+    "static/media/linkedin-logo.webp": "/React-Portfolio/static/media/linkedin-logo.3061a96319b530b5a204.webp",
+    "static/media/github-logo.webp": "/React-Portfolio/static/media/github-logo.7db3352048819c9764d3.webp",
+    "index.html": "/React-Portfolio/index.html",
+    "main.a11c1c5f.css.map": "/React-Portfolio/static/css/main.a11c1c5f.css.map",
+    "main.18479243.js.map": "/React-Portfolio/static/js/main.18479243.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a11c1c5f.css",
+    "static/js/main.18479243.js"
+  ]
+}
