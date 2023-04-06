@@ -4,6 +4,7 @@ import SocialBar from "./SocialBar";
 import Logo from "./images/logo";
 import React from "react";
 
+// Logo
 function LogoLink() {
   return (
     <NavLink to="/">
