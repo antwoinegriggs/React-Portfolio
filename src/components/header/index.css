@@ -1,0 +1,57 @@
+/* Nav Bar */
+#nav-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 70px;
+  height: 100%;
+  width: auto;
+}
+
+#btn-contact {
+  height: 50px;
+  width: 150px;
+  background-color: transparent;
+  border: solid #cc0000 0.15rem;
+  border-radius: 1.5rem;
+  font-size: 16px;
+  color: #cc0000;
+  font-family: raleway, sans-serif;
+  font-weight: 700;
+}
+
+#btn-contact:hover {
+  background-color: #cc0000;
+  color: white;
+}
+
+#resume-link {
+  color: #282626;
+  font-weight: normal;
+  font-size: 20px;
+  font-family: raleway, sans-serif;
+  margin: 35px;
+}
+
+#resume-link:hover {
+  color: orange;
+  text-decoration: underline;
+}
+
+/* Social Bar */
+header #social-bar {
+  margin: 75px;
+}
+img {
+  height: 45px;
+  width: 45px;
+  margin: 0.75rem;
+}
+
+#social-bar img {
+  transition: transform 0.2s; /* Animation */
+}
+
+#social-bar img:hover {
+  transform: scale(1.5);
+}
