@@ -4,13 +4,19 @@ import SocialBar from "./SocialBar";
 import Logo from "./images/logo";
 import React from "react";
 
+function LogoLink() {
+  return (
+    <NavLink to="/">
+      <Logo />
+    </NavLink>
+  );
+}
+
 export default function Header() {
   return (
     <React.Fragment>
       <SocialBar />
-      <NavLink to="/">
-        <Logo />
-      </NavLink>
+      <LogoLink />
       <NavBar />
     </React.Fragment>
   );

@@ -10,10 +10,15 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  /* font-size: calc(10px + 2vmin); */
   color: red;
 }
 
 body {
   font-family: "ralewayblack", Arial, sans-serif;
+}
+
+@media (max-width: 550px) {
+  .home-header {
+    flex-direction: column;
+  }
 }

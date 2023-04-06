@@ -35,8 +35,10 @@
 }
 
 #sde-photo {
-  width: 900px;
-  height: 600px;
+  max-width: 60%;
+  max-height: 40%;
+  width: 60%;
+  height: 40%;
   margin-top: 75px;
   margin-bottom: -0.01rem;
 }
@@ -211,4 +213,23 @@
 
 #tech-images-container img:hover {
   transform: scale(1.5);
+}
+
+@media (max-width: 550px) {
+  #project-container {
+    flex-direction: column;
+  }
+
+  #technology {
+    flex-direction: column;
+    height: 100%;
+  }
+  #face-logo {
+    height: 100%;
+    width: 100%;
+  }
+
+  #tech-images-container {
+    flex-direction: column;
+  }
 }
