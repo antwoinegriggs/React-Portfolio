@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "ralewayblack";
+  src: url("./font/raleway-black-webfont.woff") format("woff"),
+    url("./font/raleway-black-webfont.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: "ralewayblack", Arial, sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
