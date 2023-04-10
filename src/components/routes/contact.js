@@ -11,9 +11,7 @@ export default function Contact(props) {
         <Header />
       </header>
       <main id="contact-main">
-        <div id="contact-title">
-          Thanks for taking the time to reach out. How can I help you today?
-        </div>
+        <div id="contact-title">Thanks for taking the time to reach out!</div>
         <div id="information">
           <ContactForm />
         </div>

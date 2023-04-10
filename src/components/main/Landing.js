@@ -5,8 +5,8 @@ import photo from "./images/sde-photo.jpg";
 export default function Landing(props) {
   return (
     <div id="landing">
-      <h2 id="title">Software Engingeer</h2>
-      <p id="sub-title">I code things, that's just what I do.</p>
+      <h1 id="title">Software Engingeer</h1>
+      <h2 id="sub-title">Antwoine Griggs</h2>
       <img id="face-logo" src={logo} alt="" />
       <img id="sde-photo" src={photo} alt="" />
     </div>

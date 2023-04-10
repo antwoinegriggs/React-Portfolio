@@ -11,16 +11,17 @@ export default function Projects() {
         <div id="project-wrapper">
           <div id="text-container">
             <p id="text">
+              <br />
               Languages: HTML, CSS, JavaScript, API <br />
               Description: Built a trivia game using Jeopardy API <br />
               Exercise: API data handling, Arrays, DOM Objects, Modulization,
               Events, Conditions
               <a
-                href="https://github.com/antwoinegriggs/Trivia-Game"
+                href="https://antwoinegriggs.github.io/Trivia-Game/"
                 rel="noreferrer"
                 target={"_blank"}
               >
-                <button id="btn-projects">View Code</button>
+                <button id="btn-projects">View</button>
               </a>
             </p>
           </div>
@@ -31,16 +32,17 @@ export default function Projects() {
         <div id="project-wrapper">
           <div id="text-container">
             <p id="text">
+              <br />
               Languages: HTML, CSS, JavaScript, API <br />
               Description: Utilized Marvel API to design a catalog for Marvel
               Characters <br />
               Exercise: API Data Handling, DOM Modulization, Events
               <a
-                href="https://github.com/antwoinegriggs/marvel-character-catalog"
+                href="https://antwoinegriggs.github.io/marvel-character-catalog/"
                 rel="noreferrer"
                 target={"_blank"}
               >
-                <button id="btn-projects">View Code</button>
+                <button id="btn-projects">View</button>
               </a>
             </p>
           </div>
@@ -52,6 +54,8 @@ export default function Projects() {
         <div id="project-wrapper">
           <div id="text-container">
             <p id="text">
+              <br />
+              <br />
               Languages: HTML, CSS, JavaScript <br />
               Library: React.js
               <br />
@@ -60,7 +64,7 @@ export default function Projects() {
               <br />
               Exercise: React, Components, Objects, Hooks, State management
               <a
-                href="https://github.com/antwoinegriggs/React-Dice-Roller"
+                href="https://antwoinegriggs.github.io/React-Dice-Roller/"
                 rel="noreferrer"
                 target={"_blank"}
               >

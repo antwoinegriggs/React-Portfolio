@@ -1,134 +1,54 @@
-import React, { useState } from "react";
-import { Formik } from "formik";
+import React from "react";
+
+import { Formik, Form, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
 
-// const validationSchema = Yup.object().shape({
-//   name: Yup.string()
-//     .min(2, "Must have atleast two characters")
-//     .max(20, "Exceeded character max").required,
-
-//   email: Yup.string()
-//     .email("Must be a valid email address")
-//     .max(50, "Exceeded 255 characters").required,
-
-//   message: Yup.string().max(50, "Exceeded 255 characters").required,
-// });
-
-function useInput(initialValue) {
-  const [value, setValue] = useState(initialValue);
-  return [
-    {
-      value,
-      onChange: (e) => setValue(e.target.value),
-    },
-    () => setValue(initialValue),
-  ];
-}
-
 export default function ContactForm() {
-  const [nameProps, resetName] = useInput("");
-  const [emailProps, resetEmail] = useInput("");
-  const [messageProps, resetMessage] = useInput("");
+  const initialValues = {
+    name: "",
+    email: "",
+    message: "",
+  };
 
-  const submit = (e) => {
-    e.preventDefault();
-    resetName();
-    resetEmail();
-    resetMessage();
+  const validationSchema = Yup.object({
+    name: Yup.string().required("Required"),
+    email: Yup.string().email("Invalid email address").required("Required"),
+    message: Yup.string().required("Required"),
+  });
+
+  const onSubmit = (values, { resetForm }) => {
+    console.log("Name:", values.name);
+    console.log("Email:", values.email);
+    console.log("Message:", values.message);
+    resetForm();
   };
 
   return (
-    <form onSubmit={submit}>
-      <label htmlFor="form-name">Name</label>
-      <input
-        {...nameProps}
-        type="text"
-        name="name"
-        id="form-name"
-        placeholder="Enter your name"
-      />
-      <label htmlFor="form-email">Email</label>
-      <input
-        {...emailProps}
-        type="text"
-        name="email"
-        id="form-email"
-        placeholder="Enter your email"
-      />
-      <label htmlFor="form-message">Message</label>
-      <input {...messageProps} type="text" name="message" id="form-message" />
-      <button type="submit">Submit</button>
-    </form>
+    <div>
+      <h1>Contact</h1>
+      <Formik
+        initialValues={initialValues}
+        validationSchema={validationSchema}
+        onSubmit={onSubmit}
+      >
+        {({ errors, touched }) => (
+          <Form>
+            <label htmlFor="name">Name:</label>
+            <Field type="text" id="name" name="name" />
+            <ErrorMessage name="name" />
 
-    // <Formik
-    //   initialValues={{ name: "", email: "", message: "" }}
-    //   validationSchema={validationSchema}
-    //   onSubmit={(values, { setSubmitting, resetForm }) => {
-    //     alert("submitting");
-    //     setSubmitting(true);
+            <label htmlFor="email">Email:</label>
+            <Field type="email" id="email" name="email" />
+            <ErrorMessage name="email" />
 
-    //     setTimeout(() => {
-    //       alert(JSON.stringify(values, null, 2));
-    //       resetForm();
-    //       setSubmitting(false);
-    //     }, 500);
-    //   }}
-    // >
-    //   {({
-    //     values,
-    //     errors,
-    //     touched,
-    //     handleChange,
-    //     handleBlur,
-    //     handleSubmit,
-    //     isSubmitting,
-    //   }) => (
-    //     <form onSubmit={handleSubmit}>
-    //       <div className="input-row">
-    //         <label htmlFor="name"> Name </label>
-    //         <input
-    //           type="text"
-    //           name="name"
-    //           id="name"
-    //           placeholder="Enter your full name"
-    //           onChange={handleChange}
-    //           onBlur={handleBlur}
-    //           value={values.name}
-    //           //   className={touched.name && errors.name ? "has-error" : null}
-    //         />
-    //       </div>
-    //       <div className="input-row">
-    //         <label htmlFor="email"> Email </label>
-    //         <input
-    //           type="text"
-    //           name="email"
-    //           id="email"
-    //           placeholder="Enter your email"
-    //           onChange={handleChange}
-    //           onBlur={handleBlur}
-    //           value={values.email}
-    //           //   className={touched.email && errors.email ? "has-error" : null}
-    //         />
-    //       </div>
-    //       <div id="input-row">
-    //         <label htmlFor="message"> Message </label>
-    //         <input
-    //           type="text"
-    //           name="message"
-    //           id="message"
-    //           placeholder=""
-    //           onChange={handleChange}
-    //           onBlur={handleBlur}
-    //           value={values.message}
-    //         />
-    //       </div>
-    //       <div id="input-row">
-    //         <button type="submit" disabled={isSubmitting}>
-    //           Submit
-    //         </button>
-    //       </div>
-    //     </form>
-    //   )}
-    // </Formik>
+            <label htmlFor="message">Message:</label>
+            <Field as="textarea" id="message" name="message" />
+            <ErrorMessage name="message" />
+
+            <button type="submit">Submit</button>
+          </Form>
+        )}
+      </Formik>
+    </div>
   );
 }

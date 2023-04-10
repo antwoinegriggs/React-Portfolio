@@ -10,12 +10,7 @@ export default function NavBar(props) {
         </button>
       </NavLink>
 
-      <a
-        download
-        href="./images/Griggs,Antwoine_Software-Engineer-Resume.pdf"
-        id="resume-link"
-        target="_blank"
-      >
+      <a id="resume-link" href="./images/resume.pdf" download>
         Resume
       </a>
     </div>

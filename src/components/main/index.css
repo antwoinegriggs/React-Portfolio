@@ -16,7 +16,7 @@
 }
 
 #sub-title {
-  font-size: 19px;
+  font-size: 30px;
   font-weight: bold;
   letter-spacing: normal;
   line-height: 1.8em;
@@ -24,7 +24,7 @@
 }
 
 #face-logo {
-  margin-top: 50px;
+  margin-top: 12px;
   height: 375px;
   width: 375px;
   transition: transform 0.2s; /* Animation */
