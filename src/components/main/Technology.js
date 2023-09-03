@@ -4,7 +4,7 @@ import { techImages } from "./images/index.js";
 export default function Technology(props) {
   return (
     <div id="technology">
-      <h2 id="tech-title">Technologies </h2>
+      <h2 id="tech-title"> </h2>
       <div id="tech-images-container">
         <div>
           <img src={techImages.javaScriptImage} alt="javaScript" />
@@ -17,6 +17,9 @@ export default function Technology(props) {
         </div>
         <div>
           <img src={techImages.cssImage} alt="css 3" />
+        </div>
+        <div>
+          <img src={techImages.pythonImage} alt="python" />
         </div>
       </div>
     </div>

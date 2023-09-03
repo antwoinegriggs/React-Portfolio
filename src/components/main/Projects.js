@@ -11,13 +11,8 @@ export default function Projects() {
         <div id="project-wrapper">
           <div id="text-container">
             <p id="text">
-              <br />
-              Languages: HTML, CSS, JavaScript, API <br />
-              Description: Built a trivia game using Jeopardy API <br />
-              Exercise: API data handling, Arrays, DOM Objects, Modulization,
-              Events, Conditions
               <a
-                href="https://antwoinegriggs.github.io/Trivia-Game/"
+                href="https://github.com/antwoinegriggs/Trivia-Game"
                 rel="noreferrer"
                 target={"_blank"}
               >
@@ -32,13 +27,8 @@ export default function Projects() {
         <div id="project-wrapper">
           <div id="text-container">
             <p id="text">
-              <br />
-              Languages: HTML, CSS, JavaScript, API <br />
-              Description: Utilized Marvel API to design a catalog for Marvel
-              Characters <br />
-              Exercise: API Data Handling, DOM Modulization, Events
               <a
-                href="https://antwoinegriggs.github.io/marvel-character-catalog/"
+                href="https://github.com/antwoinegriggs/marvel-comic-catalog"
                 rel="noreferrer"
                 target={"_blank"}
               >
@@ -54,15 +44,6 @@ export default function Projects() {
         <div id="project-wrapper">
           <div id="text-container">
             <p id="text">
-              <br />
-              <br />
-              Languages: HTML, CSS, JavaScript <br />
-              Library: React.js
-              <br />
-              Description: Random dice roll that generator and render dice
-              images
-              <br />
-              Exercise: React, Components, Objects, Hooks, State management
               <a
                 href="https://antwoinegriggs.github.io/React-Dice-Roller/"
                 rel="noreferrer"
@@ -77,13 +58,14 @@ export default function Projects() {
           <h2 id="dice-title">Dice Roller w/React</h2>
         </div>
       </div>
-      <a
+
+      {/* <a
         href="https://github.com/antwoinegriggs"
         rel="noreferrer"
         target={"_blank"}
       >
         <button id="btn-github">GitHub</button>
-      </a>
+      </a> */}
     </div>
   );
 }

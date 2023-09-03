@@ -3,6 +3,7 @@ const techImages = {
   cssImage: require("./css-3.png"),
   javaScriptImage: require("./js.png"),
   reactImage: require("./react-image.png"),
+  pythonImage: require("./python-logo.png"),
 };
 
 const projectImages = {

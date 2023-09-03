@@ -10,7 +10,12 @@ export default function NavBar(props) {
         </button>
       </NavLink>
 
-      <a id="resume-link" href="./images/resume.pdf" download>
+      <a
+        id="resume-link"
+        href="https://docs.google.com/document/d/1Lc75dgFupBPBLpQlXfwWUufb2cwNn3FKLBDWEp52_R0/edit?usp=sharing"
+        target="_blank"
+        rel="noreferrer"
+      >
         Resume
       </a>
     </div>
