@@ -58,14 +58,6 @@ export default function Projects() {
           <h2 id="dice-title">Dice Roller w/React</h2>
         </div>
       </div>
-
-      {/* <a
-        href="https://github.com/antwoinegriggs"
-        rel="noreferrer"
-        target={"_blank"}
-      >
-        <button id="btn-github">GitHub</button>
-      </a> */}
     </div>
   );
 }
