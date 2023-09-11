@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.bce9704e.css",
-    "main.js": "/React-Portfolio/static/js/main.ec947cd2.js",
+    "main.css": "/React-Portfolio/static/css/main.4df729db.css",
+    "main.js": "/React-Portfolio/static/js/main.7a5ddd03.js",
     "static/media/heroes.jpg": "/React-Portfolio/static/media/heroes.87388b0c7004ec797c90.jpg",
     "static/media/dice.gif": "/React-Portfolio/static/media/dice.579471410a5ffaeb8c42.gif",
     "static/media/face-logo.png": "/React-Portfolio/static/media/face-logo.420ef787b5a4df8796d6.png",
     "static/media/trivia.jpg": "/React-Portfolio/static/media/trivia.a8433fd8af05991ef655.jpg",
     "static/media/sde-photo.jpg": "/React-Portfolio/static/media/sde-photo.aec739b9e8095a6f6fb8.jpg",
+    "static/media/CLI.jpg": "/React-Portfolio/static/media/CLI.30d8969a22be877fe34d.jpg",
     "static/media/react-image.png": "/React-Portfolio/static/media/react-image.35639ed930462bfcd544.png",
     "static/media/raleway-black-webfont.woff": "/React-Portfolio/static/media/raleway-black-webfont.02634d1413b26018bf25.woff",
     "static/media/raleway-black-webfont.woff2": "/React-Portfolio/static/media/raleway-black-webfont.cfc875cbbc39c4d52aff.woff2",
@@ -20,11 +21,11 @@
     "static/media/linkedin-logo.webp": "/React-Portfolio/static/media/linkedin-logo.3061a96319b530b5a204.webp",
     "static/media/github-logo.webp": "/React-Portfolio/static/media/github-logo.7db3352048819c9764d3.webp",
     "index.html": "/React-Portfolio/index.html",
-    "main.bce9704e.css.map": "/React-Portfolio/static/css/main.bce9704e.css.map",
-    "main.ec947cd2.js.map": "/React-Portfolio/static/js/main.ec947cd2.js.map"
+    "main.4df729db.css.map": "/React-Portfolio/static/css/main.4df729db.css.map",
+    "main.7a5ddd03.js.map": "/React-Portfolio/static/js/main.7a5ddd03.js.map"
   },
   "entrypoints": [
-    "static/css/main.bce9704e.css",
-    "static/js/main.ec947cd2.js"
+    "static/css/main.4df729db.css",
+    "static/js/main.7a5ddd03.js"
   ]
 }
